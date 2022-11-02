@@ -117,11 +117,6 @@ Circle::Circle(float _radius) : Shape()
     setRadius(_radius);
 }
 
-Circle::Circle() : Shape()
-{
-    setRadius(40);
-}
-
 void Circle::updatePoints()
 {
     if (getPointCount() != pointCount)

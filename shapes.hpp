@@ -48,8 +48,7 @@ private:
     void setPoint();
 
 public:
-    Circle(float _radius);
-    Circle();
+    Circle(float _radius = 40);
     void setRadius(float _radius);
     float getRadius(void);
     void move(sf::Vector2i win, sf::Vector2f offset);
